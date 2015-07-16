@@ -23,3 +23,4 @@ sudo apt-get install -y python-dev
 curl -O https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 sudo pip install awsebcli
+cd
