@@ -2,6 +2,8 @@
 
 rm -rf dot .vim .vimrc .oh-my-zsh
 
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+
 git clone git@github.com:darkofabijan/dot.git dot
 cd dot
 ./install.sh
