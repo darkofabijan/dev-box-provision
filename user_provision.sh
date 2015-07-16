@@ -17,3 +17,9 @@ sudo apt-get install -y zsh
 sudo chsh -s $(which zsh) vagrant
 
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" || echo "ok"
+
+cd /tmp
+sudo apt-get install -y python-dev
+curl -O https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+sudo pip install awsebcli
